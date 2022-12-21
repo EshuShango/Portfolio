@@ -1,0 +1,194 @@
+* {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+html,body {
+  margin: 0;
+  padding: 0;
+}
+
+
+.main-header-top {
+  /* outline: 2px solid red; */
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.photo {
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  background-image: url('./Assets/olu-sigil.PNG');
+  border-radius: 50%;
+  /* outline: 2px solid red; */
+  padding: 50px;
+}
+
+div.nav-name {
+  /* width: 250px; */
+  justify-content: center;
+  
+  text-align: center;
+  display: flex;
+
+}
+
+h1 {
+  color: #111d26;
+  /* font-size: 20px; */
+  font-size: 40px;
+  /* padding-left: 30px; */
+  margin-top: 30px;
+  /* outline: 2px solid red; */
+  display: flex;
+  flex: 1;
+}
+
+ .main-menu  {
+  padding-right: 10px;
+  margin: 0;
+  padding: 0;
+  list-style-type: circle;
+  /* outline: 2px solid red; */
+  /* display: flex; */
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+ li.top-entry-container {
+  /* outline: 2px solid red; */
+  padding: 7px 7px;
+  display: inline;
+  /* flex-wrap: wrap; */
+  
+}
+
+.top-item {
+  color: black;
+}
+
+
+
+/* this is the footer */
+
+.bot-item {
+  color: black;
+  padding-left: 75px;
+}
+
+
+/* when adjusting */
+ @media screen and (max-width:600px) {
+  
+  .main-header-top {
+    height: 400px;
+  }
+ 
+  div.nav-name {
+    /* outline: 2px solid red; */
+    flex-direction: column; 
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  
+  .photo {
+   padding: 75px;
+   border-radius: none;
+   /* outline: 2px solid red; */
+  }
+
+  h1 {
+    text-align: center;
+    /* outline: 2px solid red; */
+    order: 2;
+  }
+  
+  nav.main-menu {
+    max-height: 90px;
+    margin-bottom: 300px;
+    flex-direction: column;
+    
+  }
+
+  li.top-entry-container {
+    margin-bottom: 10px;
+    display: inline-block;
+    
+   }
+
+   .bot-item {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+ }
+
+
+/*  after the header */
+ section {
+  width: 100%;
+  display: flex;
+  gap:20px;
+  justify-content: flex-start;
+  align-items: stretch;
+  margin-bottom: 12px;
+ }
+
+section div.section-title {
+  width: 25%;
+  border-right: 4px solid;
+  text-align: right;
+  padding-right: 10px;
+}
+
+section div.section-content {
+  width: 75%;
+  /* outline: 1px solid red; */
+}
+
+div.work-items {
+  display: flex;
+  flex-wrap: wrap;
+}
+div.work-items div {
+  background-color: gray;
+  width: 50%;
+  height: 240px;
+  outline: 2px solid white;
+}
+
+
+div.work-items div.main-item {
+  width: 100%;
+}
+ 
+ /* the work section  */
+@media  screen and (max-width: 600px) {
+  section {
+    width: 90%;
+    flex-direction: column;
+  }
+  section div.section-title {
+    width: 100%;
+    border-right: none;
+    border-bottom: 4px solid black;
+    text-align: center;
+  }
+
+  section div.section-content {
+    width: 100%;
+  }
+
+  div.work-items div {
+    width: 100%;
+  }
+
+}
+  
+
+
+
+ 
