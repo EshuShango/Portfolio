@@ -1,7 +1,7 @@
 # 02 Advanced CSS: My Portfolio
 
 
-### Link: [github link to Heriseon]()
+### Link: [github link to My Portfolio]()
 
 ### Description:
 Here is a basic portfolio of mine with examples of my suppoesed work
