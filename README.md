@@ -3,6 +3,8 @@
 
 ### Link: [github link to My Portfolio](https://eshushango.github.io/Portfolio_02-Challenge/)
 
+![Heriseon's full page](portfolio-pic-prjct2.png)
+
 ### Description:
 Here is a basic portfolio of mine with examples of my suppoesed work
 
